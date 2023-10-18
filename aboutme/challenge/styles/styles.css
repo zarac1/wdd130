@@ -1,0 +1,17 @@
+body{
+    background-color: hotpink;
+}
+h1{
+   text-align: center;
+   color: white;
+}
+
+h4{
+    text-align: center;
+
+img{
+    width: 80%;
+    display: block;
+    margin:0 auto; 
+     color:white;     
+ }
