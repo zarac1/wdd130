@@ -1,4 +1,4 @@
-body{
+overview{
     background-color: hotpink;
 }
 h1{
@@ -11,7 +11,8 @@ h4{
 
 img{
     width: 80%;
+    left-margin: 0 auto;
+    right-margin: 0 auto;
     display: block;
-    margin:0 auto; 
      color:white;     
  }
