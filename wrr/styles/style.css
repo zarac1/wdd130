@@ -1,22 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Rock+Salt&display=swap');
+
 #background{
     background-color: #aaaa83;
     height: 725px;
     color:#c8c895;
+    padding: 15px;
 }
 #content{
     max-width: 1600px;
-    margin-left: 0 auto;
-    margin-right:0 auto;
+    margin: 0 auto;
 }
+body {
+    background-color: #fcfbfb;
+    font-family:  Ubuntu;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+   
+.home-title {
+    font-family: 'Rock Salt';
+    font-size: 2em;
+    color:#f6ba70;
+    margin-top: 50px;
+}
+            
+
 header {
-    color: ​#0a0b0a; 
+
     text-decoration: none;
 }
 nav a:hover{
     text-align:center;
-    background-color: #150b0b
+    background-color: #150b0b;
     color:#ffebcd ;
     text-decoration: none;
+    padding: 35px; 
 }
 
 nav a{
@@ -27,22 +47,32 @@ nav a{
 } 
 .icon{
     width: 80px;
+    padding: 10px;
+
+}
+.logo{
+    width: 80px;
+    
+}
+#logo-link{
+    padding-top:5px;
 
 }
 #hero-img{
     width: 100% ;
+     
 
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
-h2{
-    text-align: center;
-}
-p{
+
+
+.p{
     text-align: center;
     padding: 40px;
-    color:#130d0d;
+    color:#160808;
+    margin: 0;
     border: 2px solid green;
     background-color: #aaaa83;
 }
@@ -50,25 +80,70 @@ p{
 .book, .join{
     text-align:center;
     text-decoration: none;
-    color:rgb(151, 85, 3)
+    color:rgb(251, 188, 112);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 
 }
+msg.p{
+    font-size: 8em;
+    padding-bottom: 15px;
+
+}
+
+.msg {
+    background-color: #657059;
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+.river-card,.camping-card,.rapids-card{
+    margin: 200px 0;
+
+
+}
+.card img{
+    border: 10px solid #d9c2a3;
+    
+
+}
+
+
 .button-box{
     text-align: center;
 
+}
+a{
+    color:#f6ba70;
 }
 main section{
     text-align: center;
 }
 footer p{
     font-size: 1.2em;
-    text-align: centre;
-    color: ​#ffebcd;
+    
+    
+}
+main sector img{
+    box-sizing: border-box;
+
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #aaaa83;
+}
+footer.social img{
+    padding-top: 15px;
+
+
 }
 footer p a:hover{
     font-size: 1.2em;
     text-align: center;
-    color:#ffebcd
+   background-color:#ffebcd;
     text-decoration: underline;
 }
