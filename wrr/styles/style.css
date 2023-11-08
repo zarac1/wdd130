@@ -5,7 +5,7 @@
 }
 body {
     background-color: #fcfbfb;
-    font-family:  Ubuntu;
+    font-family:  Ubuntu, cursive,sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ nav{
     justify-content:space-around;
 } 
 .home-title {
-    font-family: 'Rock Salt',cursive;
+    font-family: 'Rock Salt',cursive, sans-serif;
     font-size: 2em;
     color:#f6ba70;
     margin-top: 50px;
@@ -139,7 +139,7 @@ msg.p{
 }
 main{
     display: grid;
-    grid: 50px auto;
+    grid-template-columns: 50px auto;
 }
 
 #background{
